@@ -9,7 +9,7 @@ const minuteOfDay = 00;
 // Only change below this line
 
 if (hourOfDay ==='00' && minuteOfDay ==='00'){
-	const taxAsDecimal = tax / '100';
+	const taxAsDecimal = parseInt(tax) / '100';
     const startingAfterTax = salary * ('1' - taxAsDecimal);
     const balace = starting - transport - food - rent
 	console.log(balance.toFixed(3))
