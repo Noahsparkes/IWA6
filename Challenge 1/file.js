@@ -1,5 +1,5 @@
-const primaryPhone = '0748105141';
-const secondaryPhone = '0219131568';
+const primaryPhone = 'O748105141'; //should return false//
+const secondaryPhone = '0219131568'; //should return true//
 
 // Only change below this line
 
